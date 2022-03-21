@@ -8,9 +8,6 @@ const Filters = () => {
         productDispatch,
         productState: { byStock, byFastDelivery, sort, byRating },
     } = CartState();
-
-    // make state for rating
-
     return (
         <div className="filters">
             <span className="title">Filter Products</span>
