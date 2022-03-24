@@ -48,7 +48,7 @@ const Header = () => {
                     <Dropdown align={"start"}>
                         <Dropdown.Toggle variant="success">
                             <FaShoppingCart color="white" fontSize="25px" />
-                            <Badge className='bg-success'>{cart.length}</Badge>
+                            <Badge className='cart-count'>{cart.length}</Badge>
                         </Dropdown.Toggle>
 
                         <Dropdown.Menu style={{ minWidth: 370 }}>

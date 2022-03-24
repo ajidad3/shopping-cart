@@ -104,6 +104,10 @@
     left: -290px;
 }
 
-.bg-success:hover {
+.cart-count {
+    background-color: #28a745 !important;
+}
+
+.cart-count:hover {
     background-color: #218838 !important;
 }
