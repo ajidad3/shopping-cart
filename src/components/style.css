@@ -104,6 +104,6 @@
     left: -290px;
 }
 
-.bg-success {
+.bg-success:hover {
     background-color: #218838 !important;
 }
